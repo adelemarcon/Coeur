@@ -42,7 +42,7 @@ fig.update_layout(
     font_color='#360a0a'
 )
 fig.update_traces(
-    line_color='#f70202'
+    line_color= "#f70202"
    line={'width': 10}
 )
 fig.update_xaxes(
