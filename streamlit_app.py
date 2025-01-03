@@ -48,7 +48,7 @@ fig.update_traces(
 fig.update_xaxes(
     mirror=True,
     ticks='outside',
-    showline=True,
+    showline=False,
     linecolor='black',
     title_font_color='black',
     tickcolor='black',
