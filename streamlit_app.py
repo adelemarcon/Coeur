@@ -23,8 +23,7 @@ y = r*np.sin(theta)
 # En utilisant plotly
 
 fig = px.line(dict(x=x, y=y), x="x", y="y", 
-              title = "C'est grâce à toi que mon coeur peut se développer", 
-              labels=dict(x="❤", y="❤"),
+              title = "C'est grâce à toi que mon coeur peut se développer ❤", 
               height=700,
               template='plotly_white'
 )
@@ -41,7 +40,7 @@ fig.update_layout(
     font_color='black'
 )
 fig.update_traces(
-    line_color='#2471A3'
+    line_color='#c91010'
 )
 fig.update_xaxes(
     mirror=True,
@@ -53,7 +52,7 @@ fig.update_xaxes(
     tickwidth=2,
     zerolinecolor='white',
     tickfont_color='black',
-    showgrid=True,
+    showgrid=False,
     gridwidth=1,
     gridcolor='white'
 )
@@ -67,7 +66,7 @@ fig.update_yaxes(
     tickwidth=2,
     zerolinecolor='white',
     tickfont_color='black',
-    showgrid=True,
+    showgrid=False,
     gridwidth=1,
     gridcolor='white'
 )
