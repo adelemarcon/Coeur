@@ -8,13 +8,13 @@ st.set_page_config(
    page_title="❤J'ai une petite question❤"
 )
 
-st.title("Veux-tu être mon Valentin ?")
+st.title("Veux-tu être mon Valentin ? ❤️")
 st.link_button("Oui", "https://adelemarcon.github.io/DM6adele.html",type="primary",use_container_width=True)
 st.link_button("Non", "https://pourmoncoeur.streamlit.app/",type="primary",use_container_width=True)
 
-st.markdown("### Peut-être que ce graphique peut te convaincre ? ")
+st.markdown("### Peut-être que ce graphique peut te convaincre")
 
-k = st.slider('Slide moi', min_value=0, max_value=3142, step=100)
+k = st.slider('Slide moi ❤️', min_value=0, max_value=3142, step=100)
 # Représentation graphique
 # ------------------------
 theta = [i/1000 for i in range (k)]
@@ -28,7 +28,7 @@ fig = px.line(dict(x=x, y=y), x="x", y="y",
               title = "C'est grâce à toi que mon coeur peut se développer ❤", 
               height=700,
               template='plotly_white',
-              labels=dict(x="❤", y="❤")
+              labels=dict(x="❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤", y="❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤")
 )
 
 fig.update_layout(
