@@ -40,9 +40,7 @@ fig.update_layout(
     title_x=0.5,
     title_xanchor='center',
     font_color='#360a0a',
-    yaxis_range=[-0.1,0.8],
-    xaxis_range = [-0.1,0.8]
-)
+    )
 fig.update_traces(
    line_width= 10,
    line_color='#ff0000'
