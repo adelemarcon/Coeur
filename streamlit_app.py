@@ -39,6 +39,7 @@ fig.update_layout(
     title_font_size=20,
     title_font_family='arial',
     title_x=0.5,
+    font_size=10
     title_xanchor='center',
     font_color='#360a0a',
     xaxis_range=[-0.8,0.8],
