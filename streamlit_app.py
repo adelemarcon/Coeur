@@ -60,9 +60,10 @@ fig.update_xaxes(
     gridcolor='#ece4e4'
 )
 fig.update_yaxes(
+    yaxis_range=[-0.1,0.8],
     mirror=True,
     ticks='outside',
-    showline=True,
+    showline=False,
     linecolor='black',
     title_font_color='black',
     tickcolor='black',
