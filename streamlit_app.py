@@ -26,6 +26,8 @@ y = r*np.sin(theta)
 
 fig = px.line(dict(x=x, y=y), x="x", y="y",
               height=700,
+              title=("Grâce à toi que mon coeur a pu se développer ❤",
+   fontsize=10)
               template='plotly_white',
               labels=dict(x="❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤", y="❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤")
 )
