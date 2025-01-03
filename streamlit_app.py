@@ -31,16 +31,16 @@ fig = px.line(dict(x=x, y=y), x="x", y="y",
 fig.update_layout(
     margin=dict(l=20, r=40, t=60, b=20),
     paper_bgcolor="white",
-    plot_bgcolor='#E4EBEC',
+    plot_bgcolor='#ece4e4',
     title_font_color='black',
     title_font_size=20,
     title_font_family='arial',
     title_x=0.5,
     title_xanchor='center',
-    font_color='black'
+    font_color='#360a0a'
 )
 fig.update_traces(
-    line_color='#c91010'
+    line_color='#f70202'
 )
 fig.update_xaxes(
     mirror=True,
