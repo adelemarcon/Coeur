@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 st.title("Veux-tu être mon Valentin ? ❤️")
-st.link_button("Oui", "https://adelemarcon.github.io/DM6adele.html",type="primary",use_container_width=True)
+st.link_button("Oui, évidemment je n'attendais que ça", "https://bonchoix.streamlit.app/",type="primary",use_container_width=True)
 st.link_button("Non", "https://mauvaischoix.streamlit.app/",type="primary",use_container_width=True)
 
 st.markdown("### Peut-être que ce graphique peut te convaincre")
