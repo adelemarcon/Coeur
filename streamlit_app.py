@@ -39,7 +39,9 @@ fig.update_layout(
     title_font_family='arial',
     title_x=0.5,
     title_xanchor='center',
-    font_color='#360a0a'
+    font_color='#360a0a',
+    yaxis_range=[-0.1,0.8],
+    xaxis_range = [-0.1,0.8]
 )
 fig.update_traces(
    line_width= 10,
@@ -60,7 +62,6 @@ fig.update_xaxes(
     gridcolor='#ece4e4'
 )
 fig.update_yaxes(
-    yaxis_range=[-0.1,0.8],
     mirror=True,
     ticks='outside',
     showline=False,
