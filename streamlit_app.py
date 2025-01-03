@@ -20,7 +20,7 @@ x = [i/1000 for i in range (k)]
 y = (np.absolute(np.tan(x)))**(np.absolute(1/np.tan(x)))
 # En utilisant plotly
 
-fig = px.line(dict(x=x, y=y), x="❤", y="❤", 
+fig = px.line(dict(x=x, y=y), x="x", y="y", 
               title = "C'est grâce à toi que mon coeur peut se développer", 
               labels=dict(x="❤", y="❤"),
               height=700,
