@@ -16,7 +16,7 @@ st.link_button("Non", "https://adelemarcon.github.io/DM6adele.html",type="secund
 k = st.slider('Slide moi', min_value=0, max_value=3142, step=100)
 # Représentation graphique
 # ------------------------
-x = [i/1000 for i in range k]
+x = [i/1000 for i in range (k)]
 y = (np.absolute(np.tan(x)))**(np.absolute(np.cot(x)))
 # En utilisant plotly
 
