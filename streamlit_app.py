@@ -24,7 +24,7 @@ x = r*np.cos(theta)
 y = r*np.sin(theta)
 # En utilisant plotly
 
-fig = px.line(dict(x=x, y=y), x="❤", y = "❤"
+fig = px.line(dict(x=x, y=y), x="❤", y = "❤",
               title = "C'est grâce à toi que mon coeur peut se développer ❤", 
               height=700,
               template='plotly_white'
