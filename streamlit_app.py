@@ -19,7 +19,7 @@ k = st.slider('Slide moi', min_value=100, max_value=3142, step=100)
 theta = [i/1000 for i in range (k)]
 th = [i/100 for i in range (3142)]
 r = (np.absolute(np.tan(theta)))**(np.absolute(1/np.tan(theta)))
-x = r*np.cos(th)
+x = r*np.cos(theta)
 y = r*np.sin(theta)
 # En utilisant plotly
 
