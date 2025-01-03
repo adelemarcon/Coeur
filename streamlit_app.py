@@ -70,4 +70,4 @@ fig.update_yaxes(
     gridwidth=1,
     gridcolor='#ece4e4'
 )
-st.plotly_chart(fig, use_container_width=False)
+st.plotly_chart(fig, use_container_width=True)
