@@ -42,8 +42,7 @@ fig.update_layout(
     font_color='#360a0a'
 )
 fig.update_traces(
-   line={'width': 10}
-   line={'color':'#ff0000'}
+   line_width'= 10
 )
 fig.update_xaxes(
     mirror=True,
