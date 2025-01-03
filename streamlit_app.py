@@ -14,7 +14,7 @@ st.link_button("Non", "https://pourmoncoeur.streamlit.app/",type="primary",use_c
 
 st.markdown("### Peut-être que ce graphique peut te convaincre ? ")
 
-k = st.slider('Slide moi', min_value=2200, max_value=3142, step=100)
+k = st.slider('Slide moi', min_value=0, max_value=3142, step=100)
 # Représentation graphique
 # ------------------------
 theta = [i/1000 for i in range (k)]
@@ -24,7 +24,7 @@ x = r*np.cos(theta)
 y = r*np.sin(theta)
 # En utilisant plotly
 
-fig = px.line(dict(x=x, y=y), x="x", y="y", 
+fig = px.line(dict(x=x, y=y), 
               title = "C'est grâce à toi que mon coeur peut se développer ❤", 
               height=700,
               template='plotly_white'
