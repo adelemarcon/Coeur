@@ -16,11 +16,12 @@ st.link_button("Non", "https://adelemarcon.github.io/DM6adele.html",type="primar
 k = st.slider('Slide moi', min_value=0, max_value=3142, step=100)
 # Représentation graphique
 # ------------------------
-x = [i/1000 for i in range (k)]
-y = (np.absolute(np.tan(x)))**(np.absolute(1/np.tan(x)))
+theta = [i/1000 for i in range (k)]
+r = (np.absolute(np.tan(theta)))**(np.absolute(1/np.tan(theta)))
+y = r*np.cos(theta)
 # En utilisant plotly
 
-fig = px.line(dict(x=x, y=y), x="x", y="y", 
+fig = px.line(dict(x=theta, y=y), x="theta", y="y", 
               title = "C'est grâce à toi que mon coeur peut se développer", 
               labels=dict(x="❤", y="❤"),
               height=700,
