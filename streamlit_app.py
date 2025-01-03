@@ -28,7 +28,7 @@ fig = px.line(dict(x=x, y=y), x="x", y="y",
               height=700,
               title="Grâce à toi que mon coeur a pu se développer ❤",
               template='plotly_white',
-              labels=dict(x="❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤", y="❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤")
+              labels=dict(x="❤❤❤❤❤❤❤❤❤❤❤❤", y="❤❤❤❤❤❤❤❤❤❤❤❤")
 )
 fig.update_layout(
     margin=dict(l=20, r=40, t=60, b=20),
