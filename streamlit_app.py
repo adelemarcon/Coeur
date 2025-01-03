@@ -25,11 +25,13 @@ y = r*np.sin(theta)
 # En utilisant plotly
 
 fig = px.line(dict(x=x, y=y), x="x", y="y",
-              title = "Grâce à toi que mon coeur a pu se développer ❤",
-              title_fontsize = 10,
               height=700,
               template='plotly_white',
               labels=dict(x="❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤", y="❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤")
+)
+fig.title(
+   "Grâce à toi que mon coeur a pu se développer ❤",
+   fontsize=10
 )
 
 fig.update_layout(
