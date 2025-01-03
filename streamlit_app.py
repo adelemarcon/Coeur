@@ -17,7 +17,7 @@ k = st.slider('Slide moi', min_value=0, max_value=3142, step=100)
 # Représentation graphique
 # ------------------------
 x = [i/1000 for i in range (k)]
-y = (np.absolute(np.tan(x)))**(np.absolute(np.cot(x)))
+y = (np.absolute(np.tan(x)))**(np.absolute(1/np.tan(x))
 # En utilisant plotly
 
 fig = px.line(dict(x=x, y=y), x="❤", y="❤", 
