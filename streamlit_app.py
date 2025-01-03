@@ -36,10 +36,9 @@ fig.update_layout(
     paper_bgcolor="white",
     plot_bgcolor='#ece4e4',
     title_font_color='black',
-    title_font_size=20,
+    title_font_size=15,
     title_font_family='arial',
     title_x=0.5,
-    font_size=10
     title_xanchor='center',
     font_color='#360a0a',
     xaxis_range=[-0.8,0.8],
