@@ -30,11 +30,6 @@ fig = px.line(dict(x=x, y=y), x="x", y="y",
    fontsize=10)
               template='plotly_white',
               labels=dict(x="❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤", y="❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤")
-)
-fig.title(
-   "Grâce à toi que mon coeur a pu se développer ❤",
-   fontsize=10
-)
 
 fig.update_layout(
     margin=dict(l=20, r=40, t=60, b=20),
