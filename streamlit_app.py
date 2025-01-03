@@ -9,11 +9,12 @@ st.set_page_config(
 )
 
 st.title("Veux-tu être mon Valentin ?")
-st.markdown("### Peut-être que ce graphique peut te convaincre ? ")
 st.link_button("Oui", "https://adelemarcon.github.io/DM6adele.html",type="primary",use_container_width=True)
 st.link_button("Non", "https://adelemarcon.github.io/DM6adele.html",type="primary",use_container_width=True)
 
-k = st.slider('Slide moi', min_value=100, max_value=3142, step=100)
+st.markdown("### Peut-être que ce graphique peut te convaincre ? ")
+
+k = st.slider('Slide moi', min_value=2200, max_value=3142, step=100)
 # Représentation graphique
 # ------------------------
 theta = [i/1000 for i in range (k)]
