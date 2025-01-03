@@ -54,7 +54,7 @@ fig.update_xaxes(
     tickfont_color='black',
     showgrid=False,
     gridwidth=1,
-    gridcolor='white'
+    gridcolor='#ece4e4'
 )
 fig.update_yaxes(
     mirror=True,
@@ -68,6 +68,6 @@ fig.update_yaxes(
     tickfont_color='black',
     showgrid=False,
     gridwidth=1,
-    gridcolor='white'
+    gridcolor='#ece4e4'
 )
 st.plotly_chart(fig, use_container_width=False)
